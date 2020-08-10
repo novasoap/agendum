@@ -1,0 +1,10 @@
+node_modules
+*~
+*.pyc
+.grunt
+_SpecRunner.html
+__benchmarks__
+build/
+*.log*
+chrome-user-data
+.vscode

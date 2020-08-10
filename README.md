@@ -1,0 +1,1 @@
+Event scheduler just to have fun with react and MDB (Material Design Boostrap)
