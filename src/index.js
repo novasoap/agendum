@@ -12,12 +12,21 @@ class App extends Component {
             <React.Fragment>
             <MDBContainer>
                 <MDBRow>
-                <MDBCol md="9">Left column</MDBCol>
-                <MDBCol md="3">Right column</MDBCol>
+                    <MDBCol md="12"><h1>Agendum</h1></MDBCol>
+                </MDBRow>
+                <MDBRow>
+                <MDBCol md="9"><Event/></MDBCol>
+                <MDBCol md="3"><Event/></MDBCol>
                 </MDBRow>
             </MDBContainer>
             </React.Fragment>
         );
+    }
+}
+class Event extends Component {
+    state = {};
+    render() {
+        return "schedule item"
     }
 }
 ReactDOM.render(<App />, document.getElementById("root"));
