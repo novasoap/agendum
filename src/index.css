@@ -1,5 +1,5 @@
-
-div[class^="col"],
-div[class*=" col"] {
-    border: 1px dotted black;
+#schedule-items > div {
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
 }
